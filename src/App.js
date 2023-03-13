@@ -30,8 +30,12 @@ function App() {
           <Typography variant="body1" sx={{ mb: 2 }}>
             Compiled by David N. Wallin
           </Typography>
-          <Button variant="contained" disabled>
-            Coming Soon
+          <Button
+            variant="contained"
+            href={process.env.PUBLIC_URL + "/Stop Murmuring.pdf"}
+            target="_blank"
+          >
+            Read Now
           </Button>
         </Grid>
       </div>
