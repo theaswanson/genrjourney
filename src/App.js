@@ -43,7 +43,7 @@ function App() {
             <DiscussionEmbed
               shortname="genrjourney"
               config={{
-                url: "genrjourney.com",
+                url: "https://genrjourney.com/",
                 identifier: "stop-murmuring",
                 title: "Stop Murmuring",
               }}
