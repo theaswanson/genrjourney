@@ -1,5 +1,6 @@
 import "./App.css";
 import { Box, Button, CssBaseline, Grid, Typography } from "@mui/material";
+import { DiscussionEmbed } from "disqus-react";
 
 function App() {
   return (
@@ -34,9 +35,20 @@ function App() {
             variant="contained"
             href={process.env.PUBLIC_URL + "/Stop Murmuring.pdf"}
             target="_blank"
+            sx={{ mb: 8 }}
           >
             Read Now
           </Button>
+          <Box sx={{ width: "100%" }}>
+            <DiscussionEmbed
+              shortname="genrjourney"
+              config={{
+                url: "genrjourney.com",
+                identifier: "stop-murmuring",
+                title: "Stop Murmuring",
+              }}
+            />
+          </Box>
         </Grid>
       </div>
     </>
