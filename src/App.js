@@ -1,6 +1,5 @@
 import "./App.css";
 import { Box, Button, CssBaseline, Grid, Typography } from "@mui/material";
-import { DiscussionEmbed } from "disqus-react";
 
 function App() {
   return (
@@ -39,16 +38,6 @@ function App() {
           >
             Read Now
           </Button>
-          <Box sx={{ width: "100%" }}>
-            <DiscussionEmbed
-              shortname="genrjourney"
-              config={{
-                url: "https://genrjourney.com/",
-                identifier: "stop-murmuring",
-                title: "Stop Murmuring",
-              }}
-            />
-          </Box>
         </Grid>
       </div>
     </>
