@@ -8,6 +8,7 @@ const App = () => {
 		{ quote: "\"This is an answer to prayer. I can make many sermons from this.\"", author: "Pastor A. - Danville, IL" },
 		{ quote: "\"This is what I have been waiting for.\"", author: "Pastor A. - Danville, IL" },
 		{ quote: "\"You are leaving a legacy.\"", author: "Bible study member - Danville, IL" },
+		{ quote: "\"The timing is perfect. I am starting a discipleship program.\"", author: "Pastor H. - Danville, IL" },
 		{ quote: "\"This book can be used for teaching.\"", author: "Pastor B. - Danville, IL" },
 		{ quote: "\"Can I make copies for each of my staff members?\"", author: "Pastor S. - Danville, IL" },
 	];
