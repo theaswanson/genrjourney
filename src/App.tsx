@@ -5,6 +5,7 @@ import "./App.css";
 
 const App = () => {
 	const quotes = [
+		{ quote: "\"You have hit a topic that needs addressing in our culture and churches today.\"", author: "Pastor K. - Fort Collins, CO" },
 		{ quote: "\"This is an answer to prayer. I can make many sermons from this.\"", author: "Pastor A. - Danville, IL" },
 		{ quote: "\"This is what I have been waiting for.\"", author: "Pastor D. - Danville, IL" },
 		{ quote: "\"You are leaving a legacy.\"", author: "Bible study member - Danville, IL" },
