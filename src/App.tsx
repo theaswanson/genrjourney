@@ -76,8 +76,8 @@ const App = () => {
           </Button>
 
           <Box>
-            {quotes.map((q) => (
-              <Comment quote={q.quote} author={q.author} />
+            {quotes.map((q, i) => (
+              <Comment quote={q.quote} author={q.author} key={i} />
             ))}
           </Box>
         </Grid>
