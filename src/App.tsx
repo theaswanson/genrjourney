@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Button, CssBaseline, Grid, Typography } from "@mui/material";
 import { Comment } from "./Comment";
 import "./App.css";
@@ -68,7 +67,7 @@ const App = () => {
           <Button
             variant="contained"
             size="large"
-            href={process.env.PUBLIC_URL + "/Stop Murmuring.pdf"}
+            href={"/Stop Murmuring.pdf"}
             target="_blank"
             sx={{ mb: 8 }}
           >

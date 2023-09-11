@@ -1,8 +1,12 @@
 .App {
-	display: flex;
-	align-items: center;
-	min-height: 100vh;
-	background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("/public/background.jpg");
-	background-size: cover;
-	padding: 1rem;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("/background.jpg");
+  background-size: cover;
+  padding: 1rem;
 }

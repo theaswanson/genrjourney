@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Typography } from "@mui/material";
 
 interface CommentProps {
@@ -22,4 +21,4 @@ export const Comment = ({ quote, author }: CommentProps) => {
       </Typography>
     </Box>
   );
-}
+};
