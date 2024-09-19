@@ -1,6 +1,6 @@
 import { Box, Button, CssBaseline, Grid, Typography } from "@mui/material";
-import { Comment } from "./Comment";
 import "./App.css";
+import { Comment } from "./Comment";
 
 const App = () => {
   const quotes = [
@@ -39,36 +39,49 @@ const App = () => {
   return (
     <>
       <CssBaseline />
-      <div className="App">
+      <div className='App'>
         <Grid
           container
-          direction="column"
-          alignItems="center"
-          justifyContent="center"
+          direction='column'
+          alignItems='center'
+          justifyContent='center'
           sx={{ width: "100%" }}
         >
           <Box
-            display="flex"
-            flexDirection="column"
-            alignItems="center"
-            justifyContent="center"
+            display='flex'
+            flexDirection='column'
+            alignItems='center'
+            justifyContent='center'
             sx={{ mb: 8 }}
           >
-            <Typography variant="h1">Gen-R</Typography>
-            <Typography variant="h6">Genesis to Revelation</Typography>
+            <Typography variant='h1'>Gen-R</Typography>
+            <Typography variant='h6'>Genesis to Revelation</Typography>
           </Box>
 
-          <Typography variant="h6" sx={{ mb: 1 }}>
+          <Box
+            display='flex'
+            flexDirection='column'
+            alignItems='center'
+            justifyContent='center'
+            sx={{ mb: 8 }}
+          >
+            <Typography variant='h6'>Bible-based Voters Guide</Typography>
+            <a href='/votersguide.jpg'>
+              <img src='/votersguide.jpg' height={300} />
+            </a>
+          </Box>
+
+          <Typography variant='h6' sx={{ mb: 1 }}>
             Stop Murmuring: Rejoice, Serve, and Live
           </Typography>
-          <Typography variant="body1" sx={{ mb: 4 }}>
+          <Typography variant='body1' sx={{ mb: 4 }}>
             Compiled by David N. Wallin
           </Typography>
           <Button
-            variant="contained"
-            size="large"
+            variant='contained'
+            size='large'
             href={"/Stop Murmuring.pdf"}
-            target="_blank"
+            target='_blank'
             sx={{ mb: 8 }}
           >
             Read Now
