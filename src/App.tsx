@@ -67,7 +67,10 @@ const App = () => {
           >
             <Typography variant='h6'>Bible-based Voters Guide</Typography>
             <a href='/votersguide.jpg'>
-              <img src='/votersguide.jpg' height={300} />
+              <img
+                src='/votersguide.jpg'
+                style={{ maxWidth: "850px", width: "100%", height: "auto" }}
+              />
             </a>
           </Box>
 
